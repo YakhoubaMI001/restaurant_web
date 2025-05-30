@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le délice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Debut Section en-tête -->
+    <section class="tete">
+        <header class="header">
+            <nav>
+                <div class="logo-section">
+                    <a href="index.html"><img src="medias/logo blanc.png" alt=""></a>
+                </div>
+
+                <div class="nav_links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#Accueil">ACCEUIL</a></li>
+                        <li><a href="#about">A PROPOS</a></li>
+                        <li><a href="#Menu">MENU</a></li>
+                        <li><a href="#Galerie">GALERIE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+                            
+            </nav>
+        </header>
+            
+        <div class="text-box">
+            <h1>BIENVENUE AU MAFE ROYALE</h1>
+            <p>Un etablissement dans le quel vos désires sont nos priorités</p>
+            <a href="" class="hero-btn">Venez nous voir pour en savoir plus</a>
+        </div>
+
+    </section>    
+    <!-- Fin Section en-tete -->
+
+    <!-- Debut Section about -->
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="medias/interieur.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-md-6">
+                    <span>Pourquoi le MAFE ROYALE?</span>
+                    <h3 class="title">Le meilleur restaurant de la ville</h3>
+                    <p>Le Mafé Royale, c’est bien plus qu’un simple plat – c’est une véritable invitation au voyage au cœur de la tradition africaine, revisitée avec une touche de raffinement moderne. Élaboré avec passion à partir d’ingrédients frais, soigneusement sélectionnés, notre mafé se distingue par sa sauce onctueuse aux arachides relevée d’un savoureux mélange d’épices, qui éveillent les papilles à chaque bouchée..</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                    <div class="icons-container">
+                    <div class="icons">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h3>Meilleurs Plats</h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h3>Livraison Gratuite  </h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 service</h3>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Fin Section about -->
+
+    <!-- Debut Section menu -->
+
+    <section class="menu" id="Menu">
+
+        <div class="forme">
+            <h1 class="heading"> Notre Menu </h1>
+        </div>
+
+        <h2 class="heading">Nos Plats </h2>
+        <div class="container box-container">
+
+            <div class="box">
+                <img src="medias/poulet rotti.jpg" alt="">
+                <h3>Poulet Rôti</h3>
+                <p>Venez decouvrir les saveurs speciales de notre poulet rôti mariné dans notre sauce spéciale</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/hambuger.jpg" alt="">
+                <h3>Hamburger</h3>
+                <p>Le Hambourger comme vous l'avez jamais degusté au paravant</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/Foutou.jpg" alt="">
+                <h3>Foutou</h3>
+                <p>Le véritable Foutou africain qui vous rappelera la cuisine de la grand-mère avec la sauce au choix</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/gombo.jpeg" alt="">
+                <h3>Sauce Gombo</h3>
+                <p>Une sauce cent pourcent à base de gombos , spécialité de la maison.</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/pizza.jpg" alt="">
+                <h3>Pizza</h3>
+                <p>Decouvrez nos grandes variétés de pizza proposées par notre chef italien Alberto dolassimento</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/mustafa-fatemi-vuT3EHWDW5g-unsplash.jpg" alt="">
+                <h3>Spaghetti Viandé</h3>
+                <p>La pâte n'a jamais été aussi délicieuse </p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+        </div>
+        <h2 class="heading">Nos Desserts </h2>
+        <div class="container box-container">
+            <div class="box">
+                <img src="medias/yaourt.jpg" alt="">
+                <h3>Smoothie</h3>
+                <p>smoothie au gout spécial que vous ne trouverez qu'au mafè royale</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/Cake.jpg" alt="">
+                <h3>Gateau au Chocolat</h3>
+                <p>Découvrez le talent incomparable de nos patissiers à travers nos gateau au chocolat </p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+        </div>
+
+        <h2 class="heading">Nos Boissons </h2>
+        <div class="container box-container">
+            <div class="box">
+                <img src="medias/jus d'orange.jpg" alt="">
+                <h3>Jus d'Orange</h3>
+                <p>Jus délicieux fais à base d'orange provenant du Maroc au gout très raffiné</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/cocktail1.jpg" alt="">
+                <h3>Cocktail</h3>
+                <p>Coktail parfait personnalisable selon vos souhait</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/limode.jpg" alt="">
+                <h3>Limonade</h3>
+                <p>Purifiez vous le système digestif avec notre coktail à base de citrons frais</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/jus de gingembre.jpg" alt="">
+                <h3>Jus de Gingembre</h3>
+                <p>Un jus fait à base de Gingembre naturel</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/cocktail.jpg" alt="">
+                <h3>Cocktail</h3>
+                <p>Coktail parfait personnalisable selon vos souhait</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+
+            <div class="box">
+                <img src="medias/jus de bissap.jpg" alt="">
+                <h3>Jus de Bissap</h3>
+                <p>Le bissap comme vous l'avez jamais gouté auparavant</p>
+                <a href="#" class="link-btn">Voir Plus</a>
+            </div>
+        </div>
+
+    </section>
+     <!-- Fin Section menu -->
+
+     <!-- Debut Section galerie -->
+
+    <section class="gallery" id="Galerie">
+
+        <div class="forme">
+            <h1 class="heading"> Galerie </h1>
+        </div>
+
+        <div class="box-container container">
+
+            <div class="box">
+                <img src="medias/façade.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/Alexandre.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/clients1.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/clients2.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/cuisinier1.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/cuisinier2.jpg" alt="">
+                <div class="content">
+                    <h3>MAFE ROYALE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, dolore?</p>
+                    <a href="#" class="link-btn">Voir plus</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin Section galerie -->
+
+    <!-- Debut Section reviews -->
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading">Avis des clients</h1>
+
+        <div class="box-container container">
+
+            <div class="box">
+                <img src="medias/pic-1.png" alt="">
+                <h3>Moustapha SIDIBE</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsum eos? Perspiciatis expedita laudantium blanditiis cupiditate at natus, quam alias?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/user2.jpg" alt="">
+                <h3>Yakhouba KONATE</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsum eos? Perspiciatis expedita laudantium blanditiis cupiditate at natus, quam alias?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="medias/pic-3.png" alt="">
+                <h3>Amadou Oury DIALLO</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsum eos? Perspiciatis expedita laudantium blanditiis cupiditate at natus, quam alias?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin Section reviews -->
+
+    <!-- Debut Section contact -->
+    <section class="contact" id="contact">
+
+        <div class="forme">
+            <h1 class="heading"> Contactez nous  </h1>
+        </div>
+
+        <div class="container">
+
+            <div class="contact-info-container">
+
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telephone</h3>
+                    <p>+224662698616</p>
+                    <p>+224661828361</p>
+                    <p>+224628965326</p>
+                </div>
+        
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email</h3>
+                    <p><a href="https://mail.google.com/mail/?view=cm&to=mssidiboss@gmail.com" target="_blank"> mssidiboss@gmail.com </a></p>
+                </div>
+        
+                <div class="box">
+                    <i class="fas fa-map"></i>
+                    <h3>Address</h3>
+                    <a href="https://maps.app.goo.gl/HV9yApBXtXji5Qj6A">Guinee, Conakry, Dixinn</a>
+                </div>
+        
+            </div>
+
+            <div class="Address">
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1321.7724220531027!2d-13.676827280572759!3d9.545296241075782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf1cd6d3f93e0449%3A0x9e9b96b41bdb1ebc!2sGamal%20Abdel%20Nasser%20University%20Of%20Conakry!5e1!3m2!1sfr!2s!4v1748202300428!5m2!1sfr!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <form action="" class="col-md-6">
+                    <h3>Ecrivez nous</h3>
+                    <input type="text" placeholder="Votre nom" class="box">
+                    <input type="email" placeholder="Email" class="box">
+                    <input type="number" placeholder="Telephone" class="box">
+                    <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Envoyez un message" class="link-btn">
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin Section galerie -->
+
+    <!-- Debut Section newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h3>newsletter</h3>
+            <p>S'inscrire pour de nouvelles mise à jour</p>
+            <form action="">
+                <input type="email" name="" placeholder="Entrez votre Email" id="" class="email">
+                <input type="submit" value="Inscription" class="link-btn">
+            </form>
+        </div>
+    </section>
+    <!-- Fin Section newsletter -->
+
+    <!-- Debut Section footer -->
+    <section class="footer container">
+        <a href="#" class="logo"><img src="medias/Logo mafè.png" alt=""> MAFE ROYALE </a>
+        <p class="credit"> &COPY; 2025 Developpé par D-K-S | Tous droit reservé! </p>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+    </section>
+    <!-- Fin Section footer -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
